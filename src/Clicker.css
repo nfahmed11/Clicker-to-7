@@ -1,0 +1,38 @@
+.Clicker-h1 {
+  font-size: 60px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.Clicker-h2 {
+  font-size: 50px;
+}
+
+.Clicker-h3 {
+  font-size: 40px;
+}
+
+.Clicker-button {
+  border: #7a031a 2px solid;
+  border-radius: 20px;
+  padding: 30px 30px;
+  font-size: 20px;
+  font-family: "Shizuru", cursive;
+  background-color: rgb(253, 210, 130);
+  box-shadow: 12px 12px 2px 1px rgba(51, 51, 58, 0.2);
+  color: #7a031a;
+}
+
+.Clicker-button:active {
+  vertical-align: top;
+  padding: 29px 29px;
+}
+
+.Clicker-img {
+  height: 350px;
+}
